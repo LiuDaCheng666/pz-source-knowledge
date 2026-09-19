@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-01-01T00:00:00.0000000Z",
+  "gameBuildId": "BUILD_ID",
+  "gameSnapshotId": "build-BUILD_ID-JAR_HASH-SOURCE_HASH",
+  "gameSnapshot": "generated/snapshots/build-BUILD_ID-JAR_HASH-SOURCE_HASH",
+  "jarSha256": "64_CHARACTER_SHA256"
+}

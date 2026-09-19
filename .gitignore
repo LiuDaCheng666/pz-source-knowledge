@@ -1,0 +1,5 @@
+generated/
+current.json
+current-*.json
+.tools/
+*.log
