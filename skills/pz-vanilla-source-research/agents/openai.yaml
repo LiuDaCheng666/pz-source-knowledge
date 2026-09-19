@@ -1,0 +1,4 @@
+interface:
+  display_name: "PZ Vanilla Source Research"
+  short_description: "Query and cite local vanilla Project Zomboid evidence"
+  default_prompt: "Use $pz-vanilla-source-research to verify this behavior against the active vanilla Project Zomboid Build."

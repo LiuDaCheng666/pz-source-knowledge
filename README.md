@@ -108,6 +108,17 @@ pwsh -NoProfile -File .\Check-PZSourceKnowledgeUpdate.ps1 `
 
 仓库中的 [AGENTS.md](AGENTS.md) 可直接供 Codex 等 AI 编程代理读取。
 
+也可以安装随仓库发布的通用 Skill：
+
+```powershell
+$target = Join-Path $HOME '.codex\skills\pz-vanilla-source-research'
+Copy-Item -LiteralPath '.\skills\pz-vanilla-source-research' `
+  -Destination $target -Recurse
+```
+
+重启或刷新 Codex 后，可通过 `$pz-vanilla-source-research` 显式调用。该
+Skill 只查询原版知识库，不包含任何服务器或具体 Mod 信息。
+
 ## 数据结构
 
 ```text
