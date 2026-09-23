@@ -119,6 +119,10 @@ Copy-Item -LiteralPath '.\skills\pz-vanilla-source-research' `
 重启或刷新 Codex 后，可通过 `$pz-vanilla-source-research` 显式调用。该
 Skill 只查询原版知识库，不包含任何服务器或具体 Mod 信息。
 
+## 开发专题
+
+- [Build 42 Moodle UI 开发与兼容指南](knowledge/moodle-ui-development.md)：原版槽位与动画机制、独立状态重叠根因、共享列协议、Lua 参考实现、鼠标命中和更新复核清单。
+
 ## 数据结构
 
 ```text
